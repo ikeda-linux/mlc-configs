@@ -9,6 +9,7 @@ repo = [
 	"2::linux-firmware",
 	"2::busybox",
 	"2::bash",
+	"2::pacman",
 ]
 urls = [
 	"https://github.com/ikeda-linux/%repo%",

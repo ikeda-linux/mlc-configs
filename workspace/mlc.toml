@@ -1,6 +1,17 @@
 mode = "workspace"
 
 repo = [
+	"2::rustysd",
+	"2::zsh",
+	"2::ncurses",
+	"2::linux-vm",
+	"2::linux-vanilla",
+	"2::linux-firmware",
+	"2::busybox",
+	"2::bash",
+	"2::pacman",
+	"2::filesystem",
+	"2::base",
 ]
 
 urls = [
