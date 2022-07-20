@@ -1,16 +1,16 @@
 mode = "repository"
-name = "crystal-x86_64"
+name = "ikeda-x86_64"
 repo = [
-	"1::amethyst",
-	"1::jade",
-	"1::jade_gui",
-	"1::lapis",
-	"1::malachite",
-	"2::bsudo",
-	"2::grub",
-	"2::sudo"
+	"2::rustysd",
+	"2::zsh",
+	"2::ncurses",
+	"2::linux-vm",
+	"2::linux-vanilla",
+	"2::linux-firmware",
+	"2::busybox",
+	"2::bash",
 ]
 urls = [
-	"https://github.com/crystal-linux/%repo%",
-	"https://github.com/crystal-linux/pkgbuild.%repo%"
+	"https://github.com/ikeda-linux/%repo%",
+	"https://github.com/ikeda-linux/pkgbuild.%repo%"
 ]

@@ -1,32 +1,9 @@
 mode = "workspace"
 
 repo = [
-	"1::amethyst",
-	"1::branding",
-	"1::caveman",
-	"1::citrine",
-	"1::crystal-keyring",
-	"1::grub-theme",
-	"1::iso", 
-	"1::jade", 
-	"1::jade_gui",
-	"1::onyx",
-	"1::site",
-	"1::wallpapers",
-#	"1::packages-any", 
-#	"1::packages-extra", 
-#	"1::packages-x86_64",
-	"2::base", 
-	"2::filesystem",
-	"2::gnome-apps-meta",
-	"2::grub",
-	"2::lsb-release",
-	"2::malachite",
-	"2::pkg-manager-warner",
-	"2::sudo"
 ]
 
 urls = [
-	"ssh://git@github.com/crystal-linux/%repo%",
-	"ssh://git@github.com/crystal-linux/pkgbuild.%repo%"
+	"ssh://git@github.com/ikeda-linux/%repo%",
+	"ssh://git@github.com/ikeda-linux/pkgbuild.%repo%"
 ]
