@@ -12,6 +12,7 @@ repo = [
 	"2::pacman",
 	"2::filesystem",
 	"2::base",
+	"2::runit",
 ]
 
 urls = [
