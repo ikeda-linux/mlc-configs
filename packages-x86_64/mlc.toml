@@ -1,18 +1,28 @@
+[base]
 mode = "repository"
+smart_pull = true
+
+[mode.repository]
 name = "ikeda-x86_64"
-repo = [
-	"2::rustysd",
-	"2::zsh",
-	"2::ncurses",
-	"2::linux-vm",
-	"2::linux-vanilla",
-	"2::linux-firmware",
-	"2::busybox",
-	"2::bash",
-	"2::pacman",
-	"2::runit",
+build_on_update = true
+
+[mode.repository.signing]
+enabled = false
+
+[repositories]
+repos = [
+	"pkg:rustysd",
+	"pkg:zsh",
+	"pkg:ncurses",
+	"pkg:linux-vm",
+	"pkg:linux-vanilla",
+	"pkg:linux-firmware",
+	"pkg:busybox",
+	"pkg:bash",
+	"pkg:pacman",
+	"pkg:runit",
 ]
-urls = [
-	"https://github.com/ikeda-linux/%repo%",
-	"https://github.com/ikeda-linux/pkgbuild.%repo%"
-]
+
+[repositories.urls]
+ikd = "https://github.com/ikeda-linux/%repo%"
+pkg = "https://github.com/ikeda-linux/pkgbuild.%repo%
