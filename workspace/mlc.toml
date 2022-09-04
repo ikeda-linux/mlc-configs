@@ -7,7 +7,7 @@ git_info = true
 colorblind = false
 
 [repositories]
-repo = [
+repos = [
 	"pkg:rustysd",
 	"pkg:zsh",
 	"pkg:ncurses",
