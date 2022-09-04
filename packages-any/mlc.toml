@@ -1,10 +1,20 @@
+[base]
 mode = "repository"
+smart_pull = true
+
+[mode.repository]
 name = "ikeda-any"
-repo = [
-	"2::filesystem",
-	"2::base",
+build_on_update = true
+
+[mode.repository.signing]
+enabled = false
+
+[repositories]
+repos = [
+	"pkg:filesystem",
+	"pkg:base",
 ]
-urls = [
-	"https://github.com/ikeda-linux/%repo%",
-	"https://github.com/ikeda-linux/pkgbuild.%repo%",
-]
+
+[repositories.urls]
+ikd = "https://github.com/ikeda-linux/%repo%",
+pkg = "https://github.com/ikeda-linux/pkgbuild.%repo%",
