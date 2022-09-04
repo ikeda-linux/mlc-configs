@@ -1,21 +1,28 @@
+[base]
 mode = "workspace"
+smart_pull = true
 
+[mode.workspace]
+git_info = true
+colorblind = false
+
+[repositories]
 repo = [
-	"2::rustysd",
-	"2::zsh",
-	"2::ncurses",
-	"2::linux-vm",
-	"2::linux-vanilla",
-	"2::linux-firmware",
-	"2::busybox",
-	"2::bash",
-	"2::pacman",
-	"2::filesystem",
-	"2::base",
-	"2::runit",
+	"pkg:rustysd",
+	"pkg:zsh",
+	"pkg:ncurses",
+	"pkg:linux-vm",
+	"pkg:linux-vanilla",
+	"pkg:linux-firmware",
+	"pkg:busybox",
+	"pkg:bash",
+	"pkg:pacman",
+	"pkg:filesystem",
+	"pkg:base",
+	"pkg:runit",
+	"ikd:image"
 ]
 
-urls = [
-	"ssh://git@github.com/ikeda-linux/%repo%",
-	"ssh://git@github.com/ikeda-linux/pkgbuild.%repo%"
-]
+[repositories.urls]
+ikd = "ssh://git@github.com/ikeda-linux/%repo%"
+pkg = "ssh://git@github.com/ikeda-linux/pkgbuild.%repo%"
