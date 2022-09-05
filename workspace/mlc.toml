@@ -20,6 +20,7 @@ repos = [
 	"pkg:filesystem",
 	"pkg:base",
 	"pkg:runit",
+	"pkg:limine",
 	"ikd:image"
 ]
 
