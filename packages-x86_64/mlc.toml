@@ -22,6 +22,7 @@ repos = [
 	"pkg:pacman",
 	"pkg:runit",
 	"pkg:limine",
+	"pkg:musl",
 ]
 
 [repositories.urls]
