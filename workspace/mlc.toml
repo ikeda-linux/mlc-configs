@@ -21,7 +21,8 @@ repos = [
 	"pkg:base",
 	"pkg:runit",
 	"pkg:limine",
-	"ikd:image"
+	"ikd:image",
+	"pkg:musl",
 ]
 
 [repositories.urls]
