@@ -23,6 +23,7 @@ repos = [
 	"pkg:runit",
 	"pkg:limine",
 	"pkg:musl",
+	"pkg:chibicc",
 ]
 
 [repositories.urls]

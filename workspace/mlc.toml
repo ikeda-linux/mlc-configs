@@ -23,6 +23,8 @@ repos = [
 	"pkg:limine",
 	"ikd:image",
 	"pkg:musl",
+	"pkg:gcc",
+	"pkg:chibicc",
 ]
 
 [repositories.urls]
