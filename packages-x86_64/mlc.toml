@@ -24,6 +24,7 @@ repos = [
 	"pkg:limine",
 	"pkg:musl",
 	"pkg:chibicc",
+	"pkg:gcc"
 ]
 
 [repositories.urls]
