@@ -25,7 +25,8 @@ repos = [
 	"pkg:musl",
 	"pkg:gcc",
 	"pkg:chibicc",
-	"pkg:openssl"
+	"pkg:openssl".
+	"pkg:wpa_supplicant"
 ]
 
 [repositories.urls]
