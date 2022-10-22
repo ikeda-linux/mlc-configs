@@ -33,7 +33,8 @@ repos = [
 	"ikd:package",
 	"pkg:p11-kit",
 	"pkg:micro",
-	"pkg:libidn"
+	"pkg:libidn",
+	"pkg:lynx",
 ]
 
 [repositories.urls]

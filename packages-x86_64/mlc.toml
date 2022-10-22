@@ -30,6 +30,7 @@ repos = [
 	"pkg:nss",
 	"pkg:micro",
 	"pkg:libidn",
+	"pkg:lynx",
 ]
 
 [repositories.urls]
