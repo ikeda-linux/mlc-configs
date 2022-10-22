@@ -30,7 +30,9 @@ repos = [
 	"pkg:e2fsprogs",
 	"pkg:mkikeda",
 	"pkg:ca-certificates",
-	"pkg:nss"
+	"pkg:nss",
+	"ikd:package",
+	"pkg:p11-kit"
 ]
 
 [repositories.urls]
