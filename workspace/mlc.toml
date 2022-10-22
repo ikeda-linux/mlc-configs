@@ -12,7 +12,6 @@ repos = [
 	"pkg:zsh",
 	"pkg:ncurses",
 	"pkg:linux-vm",
-	"pkg:linux-vanilla",
 	"pkg:linux-firmware",
 	"pkg:busybox",
 	"pkg:bash",
