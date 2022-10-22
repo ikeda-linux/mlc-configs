@@ -27,7 +27,8 @@ repos = [
 	"pkg:gcc",
 	"pkg:openssl",
 	"pkg:wpa_supplicant",
-	"pkg:e2fsprogs"
+	"pkg:e2fsprogs",
+	"pkg:nss"
 ]
 
 [repositories.urls]
