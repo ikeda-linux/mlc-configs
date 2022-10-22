@@ -28,7 +28,8 @@ repos = [
 	"pkg:wpa_supplicant",
 	"pkg:e2fsprogs",
 	"pkg:nss",
-	"pkg:micro"
+	"pkg:micro",
+	"pkg:libidn",
 ]
 
 [repositories.urls]
