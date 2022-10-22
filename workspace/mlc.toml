@@ -32,7 +32,8 @@ repos = [
 	"pkg:nss",
 	"ikd:package",
 	"pkg:p11-kit",
-	"pkg:micro"
+	"pkg:micro",
+	"pkg:libidn"
 ]
 
 [repositories.urls]
