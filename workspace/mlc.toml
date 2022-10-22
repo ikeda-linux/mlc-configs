@@ -32,7 +32,8 @@ repos = [
 	"pkg:ca-certificates",
 	"pkg:nss",
 	"ikd:package",
-	"pkg:p11-kit"
+	"pkg:p11-kit",
+	"pkg:micro"
 ]
 
 [repositories.urls]
