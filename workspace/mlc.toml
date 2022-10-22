@@ -28,7 +28,8 @@ repos = [
 	"pkg:openssl",
 	"pkg:wpa_supplicant",
 	"pkg:e2fsprogs",
-	"pkg:mkikeda"
+	"pkg:mkikeda",
+	"pkg:ca-certificates"
 ]
 
 [repositories.urls]

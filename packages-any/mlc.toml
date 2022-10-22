@@ -13,7 +13,8 @@ enabled = false
 repos = [
 	"pkg:filesystem",
 	"pkg:base",
-	"pkg:mkikeda"
+	"pkg:mkikeda".
+	"pkg:ca-certificates"
 ]
 
 [repositories.urls]
